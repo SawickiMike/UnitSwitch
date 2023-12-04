@@ -1,4 +1,4 @@
-package pl.sawicki.units;
+package pl.sawicki.common;
 
 import pl.sawicki.PhysicalQuantity;
 
