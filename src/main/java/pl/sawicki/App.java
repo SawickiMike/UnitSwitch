@@ -6,7 +6,7 @@ import pl.sawicki.common.Volume;
 import pl.sawicki.common.VolumeUnits;
 
 /**
- * Hello world!
+ *
  *
  */
 public class App 

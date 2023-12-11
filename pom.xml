@@ -8,7 +8,18 @@
   <packaging>jar</packaging>
 
   <name>UnitSwitch</name>
-  <url>http://maven.apache.org</url>
+  <description>The Units of Measure Library for Java
+    UnitSwitch is a simple and user-friendly application for converting units of measurement.
+    It supports various types of units, such as length, mass, volume, temperature, and more.</description>
+
+  <url>https://github.com/SawickiMike/UnitSwitch</url>
+
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>https://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,6 +37,11 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <source>8</source>
@@ -34,4 +50,24 @@
       </plugin>
     </plugins>
   </build>
+
+  <profiles>
+    <profile>
+      <id>githubDeploy</id>
+      <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>SawickiMike</name>
+          <url>https://github.com/SawickiMike/UnitSwitch</url>
+        </repository>
+      </distributionManagement>
+    </profile>
+  </profiles>
+
+  <scm>
+    <connection>scm:git:git://github.com/SawickiMike/UnitSwitch.git</connection>
+    <developerConnection>scm:git:ssh://github.com:SawickiMike/UnitSwitch.git</developerConnection>
+    <url>https://github.com/SawickiMike/UnitSwitch</url>
+    <tag>HEAD</tag>
+  </scm>
 </project>
