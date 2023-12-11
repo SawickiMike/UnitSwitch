@@ -16,6 +16,8 @@ public class Volume implements PhysicalQuantity<VolumeUnits> {
         this.unit = unit;
         this.baseValue = unit.toValueInBaseUnit(value);
     }
+
+
     public static Volume of(double value, VolumeUnits unit) {
         return new Volume(value, unit);
     }
@@ -89,6 +91,32 @@ public class Volume implements PhysicalQuantity<VolumeUnits> {
     public Volume toMillilitre() {
         return toUnit(VolumeUnits.MILLILITRE);
     }
+
+    public double getIntoCubicMeter() {
+        return getIn(VolumeUnits.CUBIC_METER);
+    }
+    public double getIntoCubicCentimeter() {
+        return getIn(VolumeUnits.CUBIC_CENTIMETER);
+    }
+    public double getIntoMillilitre() {
+        return getIn(VolumeUnits.MILLILITRE);
+    }
+    public double getIntoCHectolitre() {
+        return getIn(VolumeUnits.HECTOLITRE);
+    }
+    public double getIntoLiter() {
+        return getIn(VolumeUnits.LITER);
+    }
+    public double getIntoPint() {
+        return getIn(VolumeUnits.PINT);
+    }
+    public double getIntoOunce() {
+        return getIn(VolumeUnits.OUNCE);
+    }
+    public double getIntoGallon() {
+        return getIn(VolumeUnits.GALLON);
+    }
+
 
     @Override
     public boolean equals(Object o) {

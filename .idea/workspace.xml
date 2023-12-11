@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7693d918-87f6-45a5-ae56-b1321ffb7716" name="Changes" comment="Implemented area units and their conversion functionalities within the Area class, along with the AreaUnit enum.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/Mass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/MassUnits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/Volume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/VolumeUnits.java" afterDir="false" />
+    <list default="true" id="7693d918-87f6-45a5-ae56-b1321ffb7716" name="Changes" comment="Implemented Mass and Volume units and their conversion functionalities within the classes, along with the enums.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/Temperatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/TemperatureUnits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sawicki/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/Volume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sawicki/common/Volume.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -71,7 +71,9 @@
       <workItem from="1700735700512" duration="2140000" />
       <workItem from="1701676611481" duration="5197000" />
       <workItem from="1701696109382" duration="2780000" />
-      <workItem from="1701774765830" duration="3908000" />
+      <workItem from="1701774765830" duration="4605000" />
+      <workItem from="1701848328588" duration="2312000" />
+      <workItem from="1702289322684" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="Added interfaces for Unit and PhysicalQuantity, implemented distance units and their conversion functionalities within the Distance class, along with the DistanceUnit enum.">
       <created>1700737643858</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701682495555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented Mass and Volume units and their conversion functionalities within the classes, along with the enums.">
+      <created>1701778897412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701778897412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added interfaces for Unit and PhysicalQuantity, implemented distance units and their conversion functionalities within the Distance class, along with the DistanceUnit enum." />
     <MESSAGE value="Implemented area units and their conversion functionalities within the Area class, along with the AreaUnit enum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented area units and their conversion functionalities within the Area class, along with the AreaUnit enum." />
+    <MESSAGE value="Implemented Mass and Volume units and their conversion functionalities within the classes, along with the enums." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Mass and Volume units and their conversion functionalities within the classes, along with the enums." />
   </component>
 </project>
